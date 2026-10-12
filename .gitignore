@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local data files
+data/raw/*
+data/processed/*
+data/analytics/*
+
+# Keep the folder structure in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/analytics/.gitkeep
+
+# DuckDB temporary/database files
+*.duckdb
+*.duckdb.wal
+
+# Temporary Office files
+~$*.docx
+~$*.xlsx
+~$*.pptx
